@@ -82,7 +82,10 @@ const ResultPage = () => {
       }).value;
     }
 
+    // console.log(resultFromCentre);
+
     var resultFromNames = resultFromCentre.filter((s) => {
+      console.log(s);
       var split = s.name.split(" ");
 
       if (surname === " ") {

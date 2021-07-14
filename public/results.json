@@ -2,175 +2,491 @@
   "science": [
     {
       "centre": "bicholim",
+      "name": "CANDICE HOWELL",
       "stream": "science",
-      "name": "AARYAN MANOHAR  KALANGUTKAR",
-      "seat": 234214,
-      "totalMarks": "443",
-      "finalResult": "PASSES",
+      "seat": 5,
+      "totalMarks": 521,
+      "finalResult": "passes",
       "subjects": [
-        {
-          "subject": "English F.L.",
-          "marks": "67"
-        },
-        {
-          "subject": "Hindi S.L.",
-          "marks": "70"
-        },
-        {
-          "subject": "Konkani T.L.",
-          "marks": "74"
-        },
-        {
-          "subject": "Mathematics Level -1 (E)",
-          "marks": "79"
-        },
-        {
-          "subject": "Social Science(E)",
-          "marks": "81"
-        },
-        {
-          "subject": "Science(E)",
-          "marks": "72"
-        }
+        { "subject": "sub1name", "marks": 23 },
+        { "subject": "sub2name", "marks": 34 },
+        { "subject": "sub3name", "marks": 53 },
+        { "subject": "sub4name", "marks": 86 },
+        { "subject": "sub5name", "marks": 76 },
+        { "subject": "sub6name", "marks": 45 }
+      ]
+    },
+    {
+      "centre": "canacona",
+      "name": "CONRAD KOHLER PHD",
+      "stream": "science",
+      "seat": 9,
+      "totalMarks": 468,
+      "finalResult": "passes",
+      "subjects": [
+        { "subject": "sub1name", "marks": 23 },
+        { "subject": "sub2name", "marks": 34 },
+        { "subject": "sub3name", "marks": 53 },
+        { "subject": "sub4name", "marks": 86 },
+        { "subject": "sub5name", "marks": 76 },
+        { "subject": "sub6name", "marks": 45 }
       ]
     },
     {
       "centre": "bicholim",
+      "name": "JEFFREY KOCH",
       "stream": "science",
-      "name": "VARAD SHIVRAM GAUTHANKAR",
-      "seat": 4545,
-      "totalMarks": "443",
-      "finalResult": "PASSES",
+      "seat": 11,
+      "totalMarks": 363,
+      "finalResult": "passes",
       "subjects": [
-        {
-          "subject": "English F.L.",
-          "marks": "67"
-        },
-        {
-          "subject": "Hindi S.L.",
-          "marks": "70"
-        },
-        {
-          "subject": "Konkani T.L.",
-          "marks": "74"
-        },
-        {
-          "subject": "Mathematics Level -1 (E)",
-          "marks": "79"
-        },
-        {
-          "subject": "Social Science(E)",
-          "marks": "81"
-        },
-        {
-          "subject": "Science(E)",
-          "marks": "72"
-        }
+        { "subject": "sub1name", "marks": 23 },
+        { "subject": "sub2name", "marks": 34 },
+        { "subject": "sub3name", "marks": 53 },
+        { "subject": "sub4name", "marks": 86 },
+        { "subject": "sub5name", "marks": 76 },
+        { "subject": "sub6name", "marks": 45 }
+      ]
+    },
+    {
+      "centre": "margao",
+      "name": "RACHAEL HELLER IV",
+      "stream": "science",
+      "seat": 34,
+      "totalMarks": 315,
+      "finalResult": "passes",
+      "subjects": [
+        { "subject": "sub1name", "marks": 23 },
+        { "subject": "sub2name", "marks": 34 },
+        { "subject": "sub3name", "marks": 53 },
+        { "subject": "sub4name", "marks": 86 },
+        { "subject": "sub5name", "marks": 76 },
+        { "subject": "sub6name", "marks": 45 }
+      ]
+    },
+    {
+      "centre": "canacona",
+      "name": "CLINTON HAHN MD",
+      "stream": "science",
+      "seat": 36,
+      "totalMarks": 542,
+      "finalResult": "passes",
+      "subjects": [
+        { "subject": "sub1name", "marks": 23 },
+        { "subject": "sub2name", "marks": 34 },
+        { "subject": "sub3name", "marks": 53 },
+        { "subject": "sub4name", "marks": 86 },
+        { "subject": "sub5name", "marks": 76 },
+        { "subject": "sub6name", "marks": 45 }
+      ]
+    },
+    {
+      "centre": "margao",
+      "name": "HENRY WOLFF",
+      "stream": "science",
+      "seat": 37,
+      "totalMarks": 400,
+      "finalResult": "passes",
+      "subjects": [
+        { "subject": "sub1name", "marks": 23 },
+        { "subject": "sub2name", "marks": 34 },
+        { "subject": "sub3name", "marks": 53 },
+        { "subject": "sub4name", "marks": 86 },
+        { "subject": "sub5name", "marks": 76 },
+        { "subject": "sub6name", "marks": 45 }
+      ]
+    },
+    {
+      "centre": "bicholim",
+      "name": "VALERIE RUSSEL",
+      "stream": "science",
+      "seat": 41,
+      "totalMarks": 593,
+      "finalResult": "passes",
+      "subjects": [
+        { "subject": "sub1name", "marks": 23 },
+        { "subject": "sub2name", "marks": 34 },
+        { "subject": "sub3name", "marks": 53 },
+        { "subject": "sub4name", "marks": 86 },
+        { "subject": "sub5name", "marks": 76 },
+        { "subject": "sub6name", "marks": 45 }
+      ]
+    },
+    {
+      "centre": "margao",
+      "name": "MISS DORA MAYER",
+      "stream": "science",
+      "seat": 42,
+      "totalMarks": 479,
+      "finalResult": "passes",
+      "subjects": [
+        { "subject": "sub1name", "marks": 23 },
+        { "subject": "sub2name", "marks": 34 },
+        { "subject": "sub3name", "marks": 53 },
+        { "subject": "sub4name", "marks": 86 },
+        { "subject": "sub5name", "marks": 76 },
+        { "subject": "sub6name", "marks": 45 }
       ]
     }
   ],
-  "arts": [
+
+  "commerce": [
     {
-      "centre": "kepem",
-      "stream": "arts",
-      "name": "TEST",
-      "seat": 5454,
-      "totalMarks": "443",
-      "finalResult": "PASSES",
+      "centre": "canacona",
+      "name": "DESIREE ZULAUF V",
+      "stream": "commerce",
+      "seat": 3,
+      "totalMarks": 476,
+      "finalResult": "passes",
       "subjects": [
-        {
-          "subject": "English F.L.",
-          "marks": "67"
-        },
-        {
-          "subject": "Hindi S.L.",
-          "marks": "70"
-        },
-        {
-          "subject": "Konkani T.L.",
-          "marks": "74"
-        },
-        {
-          "subject": "Mathematics Level -1 (E)",
-          "marks": "79"
-        },
-        {
-          "subject": "Social Science(E)",
-          "marks": "81"
-        },
-        {
-          "subject": "Science(E)",
-          "marks": "72"
-        }
+        { "subject": "sub1name", "marks": 23 },
+        { "subject": "sub2name", "marks": 34 },
+        { "subject": "sub3name", "marks": 53 },
+        { "subject": "sub4name", "marks": 86 },
+        { "subject": "sub5name", "marks": 76 },
+        { "subject": "sub6name", "marks": 45 }
       ]
     },
     {
       "centre": "bicholim",
-      "stream": "arts",
-      "name": "CHIVU GAUTHANKAR",
-      "seat": 454545,
-      "totalMarks": "443",
-      "finalResult": "PASSES",
+      "name": "DONNA KIRLIN",
+      "stream": "commerce",
+      "seat": 4,
+      "totalMarks": 551,
+      "finalResult": "passes",
       "subjects": [
-        {
-          "subject": "English F.L.",
-          "marks": "67"
-        },
-        {
-          "subject": "Hindi S.L.",
-          "marks": "70"
-        },
-        {
-          "subject": "Konkani T.L.",
-          "marks": "74"
-        },
-        {
-          "subject": "Mathematics Level -1 (E)",
-          "marks": "79"
-        },
-        {
-          "subject": "Social Science(E)",
-          "marks": "81"
-        },
-        {
-          "subject": "Science(E)",
-          "marks": "72"
-        }
+        { "subject": "sub1name", "marks": 23 },
+        { "subject": "sub2name", "marks": 34 },
+        { "subject": "sub3name", "marks": 53 },
+        { "subject": "sub4name", "marks": 86 },
+        { "subject": "sub5name", "marks": 76 },
+        { "subject": "sub6name", "marks": 45 }
       ]
     },
     {
-      "centre": "ponda",
-      "stream": "arts",
-      "name": "VARAD",
-      "seat": 4545,
-      "totalMarks": "443",
-      "finalResult": "PASSES",
+      "centre": "bicholim",
+      "name": "FREDA TRANTOW",
+      "stream": "commerce",
+      "seat": 10,
+      "totalMarks": 586,
+      "finalResult": "passes",
       "subjects": [
-        {
-          "subject": "English F.L.",
-          "marks": "67"
-        },
-        {
-          "subject": "Hindi S.L.",
-          "marks": "70"
-        },
-        {
-          "subject": "Konkani T.L.",
-          "marks": "74"
-        },
-        {
-          "subject": "Mathematics Level -1 (E)",
-          "marks": "79"
-        },
-        {
-          "subject": "Social Science(E)",
-          "marks": "81"
-        },
-        {
-          "subject": "Science(E)",
-          "marks": "72"
-        }
+        { "subject": "sub1name", "marks": 23 },
+        { "subject": "sub2name", "marks": 34 },
+        { "subject": "sub3name", "marks": 53 },
+        { "subject": "sub4name", "marks": 86 },
+        { "subject": "sub5name", "marks": 76 },
+        { "subject": "sub6name", "marks": 45 }
+      ]
+    },
+    {
+      "centre": "marcela",
+      "name": "DOMINIC STROSIN",
+      "stream": "commerce",
+      "seat": 15,
+      "totalMarks": 436,
+      "finalResult": "passes",
+      "subjects": [
+        { "subject": "sub1name", "marks": 23 },
+        { "subject": "sub2name", "marks": 34 },
+        { "subject": "sub3name", "marks": 53 },
+        { "subject": "sub4name", "marks": 86 },
+        { "subject": "sub5name", "marks": 76 },
+        { "subject": "sub6name", "marks": 45 }
+      ]
+    },
+    {
+      "centre": "margao",
+      "name": "DONNA HERMAN",
+      "stream": "commerce",
+      "seat": 24,
+      "totalMarks": 331,
+      "finalResult": "passes",
+      "subjects": [
+        { "subject": "sub1name", "marks": 23 },
+        { "subject": "sub2name", "marks": 34 },
+        { "subject": "sub3name", "marks": 53 },
+        { "subject": "sub4name", "marks": 86 },
+        { "subject": "sub5name", "marks": 76 },
+        { "subject": "sub6name", "marks": 45 }
+      ]
+    },
+    {
+      "centre": "canacona",
+      "name": "JEANETTE HACKETT",
+      "stream": "commerce",
+      "seat": 26,
+      "totalMarks": 371,
+      "finalResult": "passes",
+      "subjects": [
+        { "subject": "sub1name", "marks": 23 },
+        { "subject": "sub2name", "marks": 34 },
+        { "subject": "sub3name", "marks": 53 },
+        { "subject": "sub4name", "marks": 86 },
+        { "subject": "sub5name", "marks": 76 },
+        { "subject": "sub6name", "marks": 45 }
+      ]
+    },
+    {
+      "centre": "bicholim",
+      "name": "ARNOLD RIPPIN",
+      "stream": "commerce",
+      "seat": 30,
+      "totalMarks": 345,
+      "finalResult": "passes",
+      "subjects": [
+        { "subject": "sub1name", "marks": 23 },
+        { "subject": "sub2name", "marks": 34 },
+        { "subject": "sub3name", "marks": 53 },
+        { "subject": "sub4name", "marks": 86 },
+        { "subject": "sub5name", "marks": 76 },
+        { "subject": "sub6name", "marks": 45 }
+      ]
+    },
+    {
+      "centre": "canacona",
+      "name": "DON HOPPE",
+      "stream": "commerce",
+      "seat": 32,
+      "totalMarks": 417,
+      "finalResult": "passes",
+      "subjects": [
+        { "subject": "sub1name", "marks": 23 },
+        { "subject": "sub2name", "marks": 34 },
+        { "subject": "sub3name", "marks": 53 },
+        { "subject": "sub4name", "marks": 86 },
+        { "subject": "sub5name", "marks": 76 },
+        { "subject": "sub6name", "marks": 45 }
+      ]
+    },
+    {
+      "centre": "bicholim",
+      "name": "JENNY ERNSER",
+      "stream": "commerce",
+      "seat": 35,
+      "totalMarks": 510,
+      "finalResult": "passes",
+      "subjects": [
+        { "subject": "sub1name", "marks": 23 },
+        { "subject": "sub2name", "marks": 34 },
+        { "subject": "sub3name", "marks": 53 },
+        { "subject": "sub4name", "marks": 86 },
+        { "subject": "sub5name", "marks": 76 },
+        { "subject": "sub6name", "marks": 45 }
+      ]
+    },
+    {
+      "centre": "marcela",
+      "name": "DEBORAH STROMAN",
+      "stream": "commerce",
+      "seat": 44,
+      "totalMarks": 522,
+      "finalResult": "passes",
+      "subjects": [
+        { "subject": "sub1name", "marks": 23 },
+        { "subject": "sub2name", "marks": 34 },
+        { "subject": "sub3name", "marks": 53 },
+        { "subject": "sub4name", "marks": 86 },
+        { "subject": "sub5name", "marks": 76 },
+        { "subject": "sub6name", "marks": 45 }
+      ]
+    },
+    {
+      "centre": "canacona",
+      "name": "EUNICE O'CONNELL MD",
+      "stream": "commerce",
+      "seat": 46,
+      "totalMarks": 536,
+      "finalResult": "passes",
+      "subjects": [
+        { "subject": "sub1name", "marks": 23 },
+        { "subject": "sub2name", "marks": 34 },
+        { "subject": "sub3name", "marks": 53 },
+        { "subject": "sub4name", "marks": 86 },
+        { "subject": "sub5name", "marks": 76 },
+        { "subject": "sub6name", "marks": 45 }
+      ]
+    },
+    {
+      "centre": "bicholim",
+      "name": "TAMMY LANGWORTH",
+      "stream": "commerce",
+      "seat": 47,
+      "totalMarks": 575,
+      "finalResult": "passes",
+      "subjects": [
+        { "subject": "sub1name", "marks": 23 },
+        { "subject": "sub2name", "marks": 34 },
+        { "subject": "sub3name", "marks": 53 },
+        { "subject": "sub4name", "marks": 86 },
+        { "subject": "sub5name", "marks": 76 },
+        { "subject": "sub6name", "marks": 45 }
       ]
     }
-  ]
+  ],
+
+  "arts": [
+    {
+      "centre": "marcela",
+      "name": "ERIK ORN III",
+      "stream": "arts",
+      "seat": 7,
+      "totalMarks": 513,
+      "finalResult": "passes",
+      "subjects": [
+        { "subject": "sub1name", "marks": 23 },
+        { "subject": "sub2name", "marks": 34 },
+        { "subject": "sub3name", "marks": 53 },
+        { "subject": "sub4name", "marks": 86 },
+        { "subject": "sub5name", "marks": 76 },
+        { "subject": "sub6name", "marks": 45 }
+      ]
+    },
+    {
+      "centre": "bicholim",
+      "name": "CHESTER TROMP",
+      "stream": "arts",
+      "seat": 12,
+      "totalMarks": 545,
+      "finalResult": "passes",
+      "subjects": [
+        { "subject": "sub1name", "marks": 23 },
+        { "subject": "sub2name", "marks": 34 },
+        { "subject": "sub3name", "marks": 53 },
+        { "subject": "sub4name", "marks": 86 },
+        { "subject": "sub5name", "marks": 76 },
+        { "subject": "sub6name", "marks": 45 }
+      ]
+    },
+    {
+      "centre": "margao",
+      "name": "TYLER ZIEMANN",
+      "stream": "arts",
+      "seat": 16,
+      "totalMarks": 530,
+      "finalResult": "passes",
+      "subjects": [
+        { "subject": "sub1name", "marks": 23 },
+        { "subject": "sub2name", "marks": 34 },
+        { "subject": "sub3name", "marks": 53 },
+        { "subject": "sub4name", "marks": 86 },
+        { "subject": "sub5name", "marks": 76 },
+        { "subject": "sub6name", "marks": 45 }
+      ]
+    },
+    {
+      "centre": "canacona",
+      "name": "MR. JIM LOCKMAN",
+      "stream": "arts",
+      "seat": 17,
+      "totalMarks": 507,
+      "finalResult": "passes",
+      "subjects": [
+        { "subject": "sub1name", "marks": 23 },
+        { "subject": "sub2name", "marks": 34 },
+        { "subject": "sub3name", "marks": 53 },
+        { "subject": "sub4name", "marks": 86 },
+        { "subject": "sub5name", "marks": 76 },
+        { "subject": "sub6name", "marks": 45 }
+      ]
+    },
+    {
+      "centre": "marcela",
+      "name": "CARY SCHROEDER",
+      "stream": "arts",
+      "seat": 23,
+      "totalMarks": 450,
+      "finalResult": "passes",
+      "subjects": [
+        { "subject": "sub1name", "marks": 23 },
+        { "subject": "sub2name", "marks": 34 },
+        { "subject": "sub3name", "marks": 53 },
+        { "subject": "sub4name", "marks": 86 },
+        { "subject": "sub5name", "marks": 76 },
+        { "subject": "sub6name", "marks": 45 }
+      ]
+    },
+    {
+      "centre": "margao",
+      "name": "TERENCE JACOBI I",
+      "stream": "arts",
+      "seat": 27,
+      "totalMarks": 327,
+      "finalResult": "passes",
+      "subjects": [
+        { "subject": "sub1name", "marks": 23 },
+        { "subject": "sub2name", "marks": 34 },
+        { "subject": "sub3name", "marks": 53 },
+        { "subject": "sub4name", "marks": 86 },
+        { "subject": "sub5name", "marks": 76 },
+        { "subject": "sub6name", "marks": 45 }
+      ]
+    },
+    {
+      "centre": "marcela",
+      "name": "JACQUELYN FEENEY",
+      "stream": "arts",
+      "seat": 31,
+      "totalMarks": 539,
+      "finalResult": "passes",
+      "subjects": [
+        { "subject": "sub1name", "marks": 23 },
+        { "subject": "sub2name", "marks": 34 },
+        { "subject": "sub3name", "marks": 53 },
+        { "subject": "sub4name", "marks": 86 },
+        { "subject": "sub5name", "marks": 76 },
+        { "subject": "sub6name", "marks": 45 }
+      ]
+    },
+    {
+      "centre": "canacona",
+      "name": "JACK SAWAYN",
+      "stream": "arts",
+      "seat": 40,
+      "totalMarks": 551,
+      "finalResult": "passes",
+      "subjects": [
+        { "subject": "sub1name", "marks": 23 },
+        { "subject": "sub2name", "marks": 34 },
+        { "subject": "sub3name", "marks": 53 },
+        { "subject": "sub4name", "marks": 86 },
+        { "subject": "sub5name", "marks": 76 },
+        { "subject": "sub6name", "marks": 45 }
+      ]
+    },
+    {
+      "centre": "bicholim",
+      "name": "KRISTIE CARROLL",
+      "stream": "arts",
+      "seat": 49,
+      "totalMarks": 350,
+      "finalResult": "passes",
+      "subjects": [
+        { "subject": "sub1name", "marks": 23 },
+        { "subject": "sub2name", "marks": 34 },
+        { "subject": "sub3name", "marks": 53 },
+        { "subject": "sub4name", "marks": 86 },
+        { "subject": "sub5name", "marks": 76 },
+        { "subject": "sub6name", "marks": 45 }
+      ]
+    },
+    {
+      "centre": "canacona",
+      "name": "ELLEN FEENEY",
+      "stream": "arts",
+      "seat": 50,
+      "totalMarks": 337,
+      "finalResult": "passes",
+      "subjects": [
+        { "subject": "sub1name", "marks": 23 },
+        { "subject": "sub2name", "marks": 34 },
+        { "subject": "sub3name", "marks": 53 },
+        { "subject": "sub4name", "marks": 86 },
+        { "subject": "sub5name", "marks": 76 },
+        { "subject": "sub6name", "marks": 45 }
+      ]
+    }
+  ],
+
+  "vocational": []
 }
