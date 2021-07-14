@@ -1,0 +1,176 @@
+{
+  "science": [
+    {
+      "centre": "bicholim",
+      "stream": "science",
+      "name": "AARYAN MANOHAR  KALANGUTKAR",
+      "seat": 234214,
+      "totalMarks": "443",
+      "finalResult": "PASSES",
+      "subjects": [
+        {
+          "subject": "English F.L.",
+          "marks": "67"
+        },
+        {
+          "subject": "Hindi S.L.",
+          "marks": "70"
+        },
+        {
+          "subject": "Konkani T.L.",
+          "marks": "74"
+        },
+        {
+          "subject": "Mathematics Level -1 (E)",
+          "marks": "79"
+        },
+        {
+          "subject": "Social Science(E)",
+          "marks": "81"
+        },
+        {
+          "subject": "Science(E)",
+          "marks": "72"
+        }
+      ]
+    },
+    {
+      "centre": "bicholim",
+      "stream": "science",
+      "name": "VARAD SHIVRAM GAUTHANKAR",
+      "seat": 4545,
+      "totalMarks": "443",
+      "finalResult": "PASSES",
+      "subjects": [
+        {
+          "subject": "English F.L.",
+          "marks": "67"
+        },
+        {
+          "subject": "Hindi S.L.",
+          "marks": "70"
+        },
+        {
+          "subject": "Konkani T.L.",
+          "marks": "74"
+        },
+        {
+          "subject": "Mathematics Level -1 (E)",
+          "marks": "79"
+        },
+        {
+          "subject": "Social Science(E)",
+          "marks": "81"
+        },
+        {
+          "subject": "Science(E)",
+          "marks": "72"
+        }
+      ]
+    }
+  ],
+  "arts": [
+    {
+      "centre": "kepem",
+      "stream": "arts",
+      "name": "TEST",
+      "seat": 5454,
+      "totalMarks": "443",
+      "finalResult": "PASSES",
+      "subjects": [
+        {
+          "subject": "English F.L.",
+          "marks": "67"
+        },
+        {
+          "subject": "Hindi S.L.",
+          "marks": "70"
+        },
+        {
+          "subject": "Konkani T.L.",
+          "marks": "74"
+        },
+        {
+          "subject": "Mathematics Level -1 (E)",
+          "marks": "79"
+        },
+        {
+          "subject": "Social Science(E)",
+          "marks": "81"
+        },
+        {
+          "subject": "Science(E)",
+          "marks": "72"
+        }
+      ]
+    },
+    {
+      "centre": "bicholim",
+      "stream": "arts",
+      "name": "CHIVU GAUTHANKAR",
+      "seat": 454545,
+      "totalMarks": "443",
+      "finalResult": "PASSES",
+      "subjects": [
+        {
+          "subject": "English F.L.",
+          "marks": "67"
+        },
+        {
+          "subject": "Hindi S.L.",
+          "marks": "70"
+        },
+        {
+          "subject": "Konkani T.L.",
+          "marks": "74"
+        },
+        {
+          "subject": "Mathematics Level -1 (E)",
+          "marks": "79"
+        },
+        {
+          "subject": "Social Science(E)",
+          "marks": "81"
+        },
+        {
+          "subject": "Science(E)",
+          "marks": "72"
+        }
+      ]
+    },
+    {
+      "centre": "ponda",
+      "stream": "arts",
+      "name": "VARAD",
+      "seat": 4545,
+      "totalMarks": "443",
+      "finalResult": "PASSES",
+      "subjects": [
+        {
+          "subject": "English F.L.",
+          "marks": "67"
+        },
+        {
+          "subject": "Hindi S.L.",
+          "marks": "70"
+        },
+        {
+          "subject": "Konkani T.L.",
+          "marks": "74"
+        },
+        {
+          "subject": "Mathematics Level -1 (E)",
+          "marks": "79"
+        },
+        {
+          "subject": "Social Science(E)",
+          "marks": "81"
+        },
+        {
+          "subject": "Science(E)",
+          "marks": "72"
+        }
+      ]
+    }
+  ]
+}
