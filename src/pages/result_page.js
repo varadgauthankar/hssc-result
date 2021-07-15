@@ -10,6 +10,7 @@ import {
   Button,
 } from "@material-ui/core";
 
+import EmptyImg from "../assets/empty.svg";
 import { useStyles } from "../styles/material_ui_styles";
 import { useHistory } from "react-router-dom";
 var jsonQuery = require("json-query");
@@ -143,7 +144,8 @@ const ResultPage = () => {
           </>
         ) : (
           <>
-            <Typography variant="h6">No Results :(</Typography>
+            <img className={classes.image} src={EmptyImg} />
+            <p className={classes.noResultTitle}>No Results</p>
             <Typography>
               check spelling or try with surname/first name.
             </Typography>
@@ -152,6 +154,7 @@ const ResultPage = () => {
       ) : (
         <>
           {console.log(searchingIn)}
+          <Typography>Searching in {searchingIn} students</Typography>
           <CircularProgress />
         </>
       )}

@@ -97,4 +97,15 @@ export const useStyles = makeStyles((theme) => ({
     color: theme.palette.grey[800],
     fontSize: theme.typography.subtitle2.fontSize,
   },
+
+  image: {
+    height: "150px",
+    padding: "12px",
+  },
+
+  noResultTitle: {
+    fontWeight: "bold",
+    color: theme.palette.primary.main,
+    fontSize: theme.typography.h6.fontSize,
+  },
 }));
