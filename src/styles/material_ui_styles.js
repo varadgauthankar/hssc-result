@@ -8,6 +8,16 @@ export const useStyles = makeStyles((theme) => ({
     maxWidth: 220,
   },
 
+  homeTile: {
+    fontSize: theme.typography.h6.fontSize,
+    fontWeight: "bold",
+  },
+
+  // @media screen and (max-width: 768px) {
+  //   font-size: 28px;
+  //   font-weight: 600;
+  // }
+
   btn: {
     textTransform: "none",
     minWidth: "280px",
@@ -67,7 +77,7 @@ export const useStyles = makeStyles((theme) => ({
 
   subTitle: {
     fontSize: "16px",
-    color: "grey",
+    color: theme.palette.grey[800],
   },
 
   table: {
@@ -78,7 +88,7 @@ export const useStyles = makeStyles((theme) => ({
     marginLeft: "auto",
     marginRight: "auto",
     maxWidth: 500,
-    border: "1px solid #000000",
+    border: "1px solid #E0E0E0",
     borderRadius: "8px",
     // padding: "12px",
   },

@@ -67,7 +67,7 @@ const HomePage = () => {
 
   return (
     <Box className={classes.box}>
-      <h2>Goa Board HSSC Result 2021</h2>
+      <p className={classes.homeTile}>Goa Board HSSC Result 2021</p>
 
       <Spacer height={12} />
 

@@ -28,7 +28,7 @@ const SeatResult = () => {
 
   return (
     <Box className={classes.box}>
-      <h2 className={classes.title}>{data.name}</h2>
+      <h2 className={classes.noResultTitle}>{data.name}</h2>
       <h2 className={classes.subTitle}>Seat: {data.seat}</h2>
       <Spacer height={22} />
 
