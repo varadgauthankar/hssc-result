@@ -128,8 +128,7 @@ const ResultPage = () => {
                     <CardContent key={index} className={classes.cardContent}>
                       <p className={classes.cardTitle}>{item.name}</p>
                       <p className={classes.cardSubtitle}>Seat: {item.seat}</p>
-                      <Divider />
-
+                      <Divider className={classes.divider} />
                       <p className={classes.cardOtherText}>
                         Centre: {item.centre}
                       </p>

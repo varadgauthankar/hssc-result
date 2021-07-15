@@ -20,17 +20,29 @@ export const useStyles = makeStyles((theme) => ({
 
   btn: {
     textTransform: "none",
-    minWidth: "280px",
+    minWidth: "300px",
     padding: 0,
+
+    [theme.breakpoints.down("xs")]: {
+      width: "100%",
+    },
   },
 
   cardResult: {
     margin: "6px",
-    minWidth: "280px",
+    minWidth: "300px",
+
+    [theme.breakpoints.down("xs")]: {
+      width: "100%",
+    },
   },
 
   cardContent: {
-    minWidth: "280px",
+    minWidth: "300px",
+
+    [theme.breakpoints.down("xs")]: {
+      width: "100%",
+    },
 
     "&:last-child": {
       paddingBottom: "12px",
@@ -117,5 +129,10 @@ export const useStyles = makeStyles((theme) => ({
     fontWeight: "bold",
     color: theme.palette.primary.main,
     fontSize: theme.typography.h6.fontSize,
+  },
+
+  divider: {
+    marginTop: "4px",
+    marginBottom: "4px",
   },
 }));
