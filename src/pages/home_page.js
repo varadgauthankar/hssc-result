@@ -27,9 +27,6 @@ const HomePage = () => {
   const [isNameError, setIsNameError] = useState(false);
   const [nameErrorText, setNameErrorText] = useState("");
 
-  const [isCentreError, setIsCentreError] = useState(false);
-  const [isCentreErrorText, setCentreErrorText] = useState("");
-
   const twitter = "https://twitter.com/varadgauthankar";
 
   const handleTextField = (event) => {
@@ -91,8 +88,6 @@ const HomePage = () => {
             value={stream}
             onChange={handleStream}
             label="Stream"
-            helperText={isCentreErrorText}
-            error={isCentreError}
           >
             <MenuItem value="all">
               <em>All Streams</em>
@@ -112,8 +107,6 @@ const HomePage = () => {
             value={centre}
             onChange={handleCentre}
             label="Centre"
-            helperText={isCentreErrorText}
-            error={isCentreError}
           >
             <MenuItem value="all">
               <em>All Centres</em>

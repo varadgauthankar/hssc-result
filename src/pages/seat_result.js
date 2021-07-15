@@ -21,7 +21,6 @@ const SeatResult = () => {
   const history = useHistory();
 
   const data = location.state.data;
-  console.log(data);
 
   const handleButton = () => {
     history.push("/");
