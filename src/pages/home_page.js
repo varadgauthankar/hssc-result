@@ -20,8 +20,8 @@ const HomePage = () => {
   const classes = useStyles();
   const history = useHistory();
 
-  const [centre, setCentre] = useState("all");
-  const [stream, setStream] = useState("all");
+  const [centre, setCentre] = useState("");
+  const [stream, setStream] = useState("");
   const [name, setName] = useState("");
 
   const [isNameError, setIsNameError] = useState(false);
