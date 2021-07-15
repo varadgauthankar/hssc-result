@@ -144,7 +144,7 @@ const ResultPage = () => {
           </>
         ) : (
           <>
-            <img className={classes.image} src={EmptyImg} />
+            <img alt="no_results" className={classes.image} src={EmptyImg} />
             <p className={classes.noResultTitle}>No Results</p>
             <Typography>
               check spelling or try with surname/first name.
