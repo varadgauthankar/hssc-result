@@ -2,9 +2,6 @@ import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import {
   Box,
-  List,
-  ListItem,
-  ListItemText,
   CircularProgress,
   Divider,
   Typography,
@@ -15,7 +12,6 @@ import {
 
 import { useStyles } from "../styles/material_ui_styles";
 import { useHistory } from "react-router-dom";
-var jp = require("jsonpath");
 var jsonQuery = require("json-query");
 
 const ResultPage = () => {
@@ -33,7 +29,7 @@ const ResultPage = () => {
   var firstName = splitName[0];
   var surname = " ";
 
-  //assign the surname if entered.
+  //assign the surname if given.
   if (splitName.length > 1) {
     surname = splitName[splitName.length - 1];
   }
@@ -42,20 +38,17 @@ const ResultPage = () => {
   if (centre === "all") centre = "*";
   if (stream === "all") stream = "*";
 
-  // console.log(`centre: ${centre}`);
-  // console.log(`stream: ${stream}`);
-  // console.log(`fisrtName: ${firstName}`);
-  // console.log(`surname: ${surname}`);
-
   const [finalResultList, setfinalResultList] = useState([]);
-
   const [isLoaded, setIsLoaded] = useState(false);
+
+  // this just hold the number of students searching in
+  const [searchingIn, setSearchingIn] = useState(0);
 
   useEffect(() => {
     setIsLoaded(false);
     queryData();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-    // ^ disables annoying useEffect warning
+    // disables annoying useEffect warning
+    // eslint-disable-next-line
   }, []);
 
   async function queryData() {
@@ -70,22 +63,26 @@ const ResultPage = () => {
 
     var resultFromCentre = [];
 
-    var resultFromStream = jsonQuery(`[${stream}]`, { data: res }).value;
+    // if no stream is provided, all the stream is returned
+    var resultFromStream = jsonQuery(`[*${stream}]`, { data: res }).value;
 
+    // checking by centre
     if (centre !== "*") {
       resultFromCentre = jsonQuery(`[*centre=${centre}]`, {
         data: resultFromStream,
       }).value;
     } else {
+      // if no centre is given, return all
+      // group result by using ** in one object
       resultFromCentre = jsonQuery(`[**]`, {
         data: resultFromStream,
       }).value;
     }
 
-    // console.log(resultFromCentre);
+    setSearchingIn(resultFromCentre.length);
 
+    //search using name
     var resultFromNames = resultFromCentre.filter((s) => {
-      console.log(s);
       var split = s.name.split(" ");
 
       if (surname === " ") {
@@ -121,12 +118,13 @@ const ResultPage = () => {
 
             {finalResultList.map((item, index) => {
               return (
-                <Card id={index} className={classes.cardResult}>
+                <Card key={index} className={classes.cardResult}>
                   <Button
+                    key={index}
                     className={classes.btn}
                     onClick={() => handleOnClick(index)}
                   >
-                    <CardContent className={classes.cardContent}>
+                    <CardContent key={index} className={classes.cardContent}>
                       <p className={classes.cardTitle}>{item.name}</p>
                       <p className={classes.cardSubtitle}>Seat: {item.seat}</p>
                       <Divider />
@@ -152,7 +150,10 @@ const ResultPage = () => {
           </>
         )
       ) : (
-        <CircularProgress />
+        <>
+          {console.log(searchingIn)}
+          <CircularProgress />
+        </>
       )}
     </Box>
   );
