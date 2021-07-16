@@ -189,8 +189,17 @@ const HomePage = () => {
           SUBMIT
         </Button>
       </FormControl>
-
       <Spacer height={22} />
+
+      <Link
+        color="primary"
+        rel="noopener"
+        target="_blank"
+        href={"https://ssc-result.netlify.app/?ref=hssc"}
+      >
+        SSC Result
+      </Link>
+      <Spacer height={12} />
 
       <Typography className={classes.root}>Developed by</Typography>
       <Typography className={classes.root}>
