@@ -26,6 +26,10 @@ const HomePage = () => {
 
   const [isNameError, setIsNameError] = useState(false);
   const [nameErrorText, setNameErrorText] = useState("");
+  const [isCentreError, setIsCentreError] = useState(false);
+  const [centreErrorText, setCentreErrorText] = useState("");
+  const [isStreamError, setIsStreamError] = useState(false);
+  const [streamErrorText, setStreamErrorText] = useState("");
 
   const twitter = "https://twitter.com/varadgauthankar";
 
@@ -41,12 +45,6 @@ const HomePage = () => {
     setStream(event.target.value);
   };
 
-  const validateForm = () => {
-    if (validateName()) {
-      return true;
-    } else return false;
-  };
-
   const validateName = () => {
     if (name === "") {
       setNameErrorText("Enter the name.");
@@ -57,6 +55,43 @@ const HomePage = () => {
       setIsNameError(false);
       return true;
     }
+  };
+
+  const validateCentre = () => {
+    if (centre === "") {
+      setCentreErrorText("Select Centre");
+      setIsCentreError(true);
+      return false;
+    } else {
+      setCentreErrorText("");
+      setIsCentreError(false);
+      return true;
+    }
+  };
+
+  const validateStream = () => {
+    if (stream === "") {
+      setStreamErrorText("Select Stream");
+      setIsStreamError(true);
+      return false;
+    } else {
+      setStreamErrorText("");
+      setIsStreamError(false);
+      return true;
+    }
+  };
+
+  const validateForm = () => {
+    var isValid = false;
+    if (validateName()) isValid = true;
+    else isValid = false;
+    if (validateStream()) isValid = true;
+    else isValid = false;
+    if (validateCentre()) isValid = true;
+    else isValid = false;
+
+    if (isValid) return true;
+    else return false;
   };
 
   const handleSubmit = () => {
@@ -88,6 +123,8 @@ const HomePage = () => {
             value={stream}
             onChange={handleStream}
             label="Stream"
+            helperText={streamErrorText}
+            error={isStreamError}
           >
             <MenuItem value="all">
               <em>All Streams</em>
@@ -107,6 +144,8 @@ const HomePage = () => {
             value={centre}
             onChange={handleCentre}
             label="Centre"
+            helperText={centreErrorText}
+            error={isCentreError}
           >
             <MenuItem value="all">
               <em>All Centres</em>
