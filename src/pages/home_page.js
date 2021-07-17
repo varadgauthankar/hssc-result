@@ -97,7 +97,10 @@ const HomePage = () => {
 
   const handleSubmit = () => {
     if (validateForm()) {
-      history.push("/result", { name, centre, stream });
+      history.push({
+        pathname: "/result/",
+        search: `?name=${name}&stream=${stream}&centre=${centre}`,
+      });
     }
   };
 

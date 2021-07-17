@@ -20,10 +20,11 @@ const ResultPage = () => {
   const location = useLocation();
   const history = useHistory();
   const classes = useStyles();
+  const parms = new URLSearchParams(location.search);
 
-  const name = location.state.name.trim().toUpperCase();
-  var centre = location.state.centre.toLowerCase();
-  var stream = location.state.stream.toLowerCase();
+  const name = parms.get("name").trim().toUpperCase();
+  var stream = parms.get("stream").toLowerCase();
+  var centre = parms.get("centre").toLowerCase();
 
   //split the name if full name is entrered
   var splitName = name.split(" ");
