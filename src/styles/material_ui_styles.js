@@ -135,4 +135,9 @@ export const useStyles = makeStyles((theme) => ({
     marginTop: "4px",
     marginBottom: "4px",
   },
+
+  tableHead: {
+    backgroundColor: theme.palette.primary.light,
+    border: "1px solid #7986CB",
+  },
 }));

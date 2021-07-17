@@ -9,9 +9,11 @@ import {
   TableHead,
   Box,
   Button,
+  Typography,
 } from "@material-ui/core";
 
 import { useStyles } from "../styles/material_ui_styles";
+import { withStyles } from "@material-ui/core/styles";
 import { Spacer } from "../utils/helpers";
 import { useHistory } from "react-router-dom";
 
@@ -26,6 +28,14 @@ const SeatResult = () => {
     history.push("/");
   };
 
+  const StyledTableRow = withStyles((theme) => ({
+    root: {
+      "&:nth-of-type(odd)": {
+        backgroundColor: theme.palette.action.hover,
+      },
+    },
+  }))(TableRow);
+
   return (
     <Box className={classes.box}>
       <h2 className={classes.noResultTitle}>{data.name}</h2>
@@ -34,7 +44,7 @@ const SeatResult = () => {
 
       <TableContainer className={classes.tableCont}>
         <Table className={classes.table}>
-          <TableHead>
+          <TableHead className={classes.tableHead}>
             <TableRow>
               <TableCell align="center">
                 <h3>SUBJECT</h3>
@@ -44,14 +54,21 @@ const SeatResult = () => {
               </TableCell>
             </TableRow>
           </TableHead>
+
           <TableBody>
             {data.subjects.map((row) => (
-              <TableRow>
-                <TableCell align="center">{row.subject}</TableCell>
-                <TableCell align="center">{row.marks}</TableCell>
-              </TableRow>
+              <StyledTableRow key={row.subject}>
+                <TableCell align="center">
+                  <Typography variant="body1">{row.subject}</Typography>
+                </TableCell>
+                <TableCell align="center">
+                  <Typography variant="body1">{row.marks}</Typography>
+                </TableCell>
+              </StyledTableRow>
             ))}
+          </TableBody>
 
+          <TableBody>
             <TableRow>
               <TableCell align="center">
                 <h3>TOTAL</h3>
