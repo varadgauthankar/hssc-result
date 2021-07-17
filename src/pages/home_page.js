@@ -48,7 +48,7 @@ const HomePage = () => {
 
   const validateName = () => {
     if (name === "") {
-      setNameErrorText("Enter the name.");
+      setNameErrorText("Enter the name");
       setIsNameError(true);
       return false;
     } else {
@@ -108,13 +108,15 @@ const HomePage = () => {
       <Spacer height={12} />
 
       <FormControl className={classes.formControl}>
-        <TextField
-          label="Name"
-          variant="outlined"
-          helperText={nameErrorText}
-          error={isNameError}
-          onChange={handleTextField}
-        />
+        <FormControl>
+          <TextField
+            variant="outlined"
+            label="Name"
+            helperText={nameErrorText}
+            error={isNameError}
+            onChange={handleTextField}
+          />
+        </FormControl>
 
         <Spacer height={12} />
         <FormControl
