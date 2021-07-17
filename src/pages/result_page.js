@@ -13,6 +13,7 @@ import {
 import EmptyImg from "../assets/empty.svg";
 import { useStyles } from "../styles/material_ui_styles";
 import { useHistory } from "react-router-dom";
+import { Spacer } from "../utils/helpers";
 var jsonQuery = require("json-query");
 
 const ResultPage = () => {
@@ -42,9 +43,6 @@ const ResultPage = () => {
   const [finalResultList, setfinalResultList] = useState([]);
   const [isLoaded, setIsLoaded] = useState(false);
 
-  // this just hold the number of students searching in
-  const [searchingIn, setSearchingIn] = useState(0);
-
   useEffect(() => {
     setIsLoaded(false);
     queryData();
@@ -54,7 +52,12 @@ const ResultPage = () => {
 
   async function queryData() {
     var result = await getData();
-    setIsLoaded(true);
+
+    //just giving people enough time to read the quote
+    setTimeout(() => {
+      setIsLoaded(true);
+    }, 2000);
+
     setfinalResultList(result);
   }
 
@@ -66,7 +69,6 @@ const ResultPage = () => {
 
     // if no stream is provided, all the stream is returned
     var resultFromStream = jsonQuery(`[*${stream}]`, { data: res }).value;
-
     // checking by centre
     if (centre !== "*") {
       resultFromCentre = jsonQuery(`[*centre=${centre}]`, {
@@ -79,8 +81,6 @@ const ResultPage = () => {
         data: resultFromStream,
       }).value;
     }
-
-    setSearchingIn(resultFromCentre.length);
 
     //search using name
     var resultFromNames = resultFromCentre.filter((s) => {
@@ -146,15 +146,16 @@ const ResultPage = () => {
             <img alt="no_results" className={classes.image} src={EmptyImg} />
             <p className={classes.noResultTitle}>No Results</p>
             <Typography>
-              check spelling or try with surname/first name.
+              Check spelling or try with surname/first name.
             </Typography>
           </>
         )
       ) : (
         <>
-          {console.log(searchingIn)}
-          <Typography>Searching in {searchingIn} students</Typography>
           <CircularProgress />
+          <Spacer height={12} />
+          <p>Being Happy is the Greatest form of Success.</p>
+          <em>-unknown</em>
         </>
       )}
     </Box>

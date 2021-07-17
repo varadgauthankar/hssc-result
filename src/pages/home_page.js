@@ -9,6 +9,7 @@ import {
   InputLabel,
   Typography,
   Link,
+  FormHelperText,
 } from "@material-ui/core";
 
 import { Spacer } from "../utils/helpers";
@@ -116,15 +117,17 @@ const HomePage = () => {
         />
 
         <Spacer height={12} />
-        <FormControl variant="outlined" className={classes.formControl}>
+        <FormControl
+          variant="outlined"
+          error={isStreamError}
+          className={classes.formControl}
+        >
           <InputLabel id="stream">Stream</InputLabel>
           <Select
             labelId="stream"
             value={stream}
             onChange={handleStream}
             label="Stream"
-            helperText={streamErrorText}
-            error={isStreamError}
           >
             <MenuItem value="all">
               <em>All Streams</em>
@@ -134,18 +137,21 @@ const HomePage = () => {
             <MenuItem value="arts">Arts</MenuItem>
             <MenuItem value="vocational">Vocational</MenuItem>
           </Select>
+          <FormHelperText>{streamErrorText}</FormHelperText>
         </FormControl>
 
         <Spacer height={12} />
-        <FormControl variant="outlined" className={classes.formControl}>
+        <FormControl
+          variant="outlined"
+          error={isCentreError}
+          className={classes.formControl}
+        >
           <InputLabel id="centre">Centre</InputLabel>
           <Select
             labelId="centre"
             value={centre}
             onChange={handleCentre}
             label="Centre"
-            helperText={centreErrorText}
-            error={isCentreError}
           >
             <MenuItem value="all">
               <em>All Centres</em>
@@ -181,6 +187,7 @@ const HomePage = () => {
             <MenuItem value="mapusa - b">Mapusa - b</MenuItem>
             <MenuItem value="netravali">Netravali</MenuItem>
           </Select>
+          <FormHelperText>{centreErrorText}</FormHelperText>
         </FormControl>
 
         <Spacer height={12} />

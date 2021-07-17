@@ -69,7 +69,7 @@ export const useStyles = makeStyles((theme) => ({
     justifyContent: "center",
     minHeight: "100vh",
     padding: "12px",
-    paddingBottom: "100px",
+    // paddingBottom: "100px",
   },
 
   boxResult: {
