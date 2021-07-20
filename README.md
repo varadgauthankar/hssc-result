@@ -1,7 +1,4 @@
-# SSC-Result
 
-get ssc goa board result 2021 by name
+# HSSC RESULT
 
-## Data fetcher 
-
-<a href="https://github.com/varadgauthankar/ssc_result_fetch">ssc-result-fetch</a>
+This is only front-end for HSSC-result, similar to the [SSC-RESULT](https://ssc-result.netlify.app/), but sadly they have sacured the API this time, so I no longer can access the data.
